@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.example.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/" elementFormDefault="qualified">
+    <xsd:element name="MAPADEPUERTORICO">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="MUNICIPIOS" type="xsd:string"></xsd:element>
+    			<xsd:element name="MUNICIPIO" maxOccurs="unbounded" minOccurs="1">
+    				<xsd:complexType>
+    					<xsd:sequence>
+    						<xsd:element name="NOMBRE" type="xsd:string"
+    							maxOccurs="1" minOccurs="1">
+    						</xsd:element>
+    						<xsd:element name="BARRIO00"
+    							type="xsd:string" maxOccurs="1" minOccurs="1">
+    						</xsd:element>
+    						<xsd:element name="BARRIO01"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO02"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO03"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO04"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO05"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO06"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO07"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO08"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO09"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO10"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO11"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO12"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO13"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO14"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO15"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO16"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO17"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO18"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO19"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO20"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO21"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO22"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO23"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    						<xsd:element name="BARRIO24"
+    							type="xsd:string" maxOccurs="1" minOccurs="0">
+    						</xsd:element>
+    					</xsd:sequence>
+    				</xsd:complexType>
+    			</xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+</xsd:schema>
